@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+
+.container-all{
+    .margin-spacing{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.main-content{
+    padding-top: 100px;
+    z-index: -1;
+}
+
+.Footer{
+    position: relative;
+    bottom: 0;
+    background-color:#0943F9 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   box-shadow: 0px -3px 5px 0px rgba(0,0,0,0.75);;
+
+    p{
+        font-weight: bolder;
+    }
+}
+
+@media (prefers-reduced-motion) {
+    .accordion{
+
+    }
+  }
